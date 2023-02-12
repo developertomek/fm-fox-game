@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.frame {
+  height: 762px;
+  position: relative;
+  width: 762px;
+}
+
+.inner {
+  position: relative;
+}
+
+.game {
+  height: 577px;
+  left: 67px;
+  position: absolute;
+  top: 62px;
+  width: 628px;
+}
+
+.game.night {
+  left: -19px;
+  top: 62px;
+  width: 716px;
+}
+
+.hidden {
+  display: none;
+}
+
+.buttons {
+  align-items: center;
+  display: flex;
+  height: 71px;
+  justify-content: center;
+  left: 266px;
+  position: absolute;
+  top: 674px;
+  width: 228px;
+}
+
+.icons {
+  align-items: center;
+  display: flex;
+  height: 67px;
+  justify-content: space-between;
+  left: 194px;
+  position: absolute;
+  top: 572px;
+  width: 374px;
+}
+
+.poop-bag {
+  left: 160px;
+  position: absolute;
+  top: 300px;
+}
+
+.modal-inner {
+  background-color: blueviolet;
+  border-radius: 12px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  left: 0;
+  padding: 25px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.modal:empty {
+  display: none;
+}
+
+.modal-inner:empty {
+  display: none;
+}
+
+.fox {
+  left: 285px;
+  overflow: hidden;
+  position: absolute;
+  top: 336px;
+}
+
+.fox-pooping {
+  left: 159px;
+  top: 319px;
+}
+
+.fox-celebrate {
+  left: 290px;
+  top: 290px;
+}
+
+.fox-rain {
+  top: 362px;
+}
+
+.fox-hungry {
+  top: 362px;
+}
+
+.fox-eating {
+  top: 362px;
+}
+
+.fox-egg {
+  left: 248px;
+  top: 289px;
+}
+
+.fox-sleep {
+  left: 445px;
+  top: 351px;
+}
+
+.fox-dead {
+  left: 243px;
+  top: 380px;
+}
